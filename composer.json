@@ -1,0 +1,31 @@
+{
+    "name": "Liu/Kf",
+    "description": "基于laravel-echo-server的客服扩展包，扩展包提供了数据表迁移和路由",
+    "type": "1",
+    "require": {
+        "php": ">=7.2.11"
+    },
+    "autoload": {
+      "psr-4": {
+        "Liu\\Kf\\": "src/"
+      }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Liu\\Kf\\KfServiceProvider"
+        ],
+        "aliases": {
+          "Customer": "Liu\\Kf\\KfFacade"
+        }
+      }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "奔跑的代码",
+            "email": "695527585@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
