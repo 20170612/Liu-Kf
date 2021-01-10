@@ -1,5 +1,5 @@
 {
-    "name": "liu/kf",
+    "name": "xinyujian/kf",
     "description": "基于laravel-echo-server的客服扩展包，扩展包提供了数据表迁移和路由",
     "type": "1",
     "require": {
